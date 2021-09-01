@@ -1,0 +1,153 @@
+#showcase-p{
+    color: floralwhite;
+    font-size: 26px;
+    padding: 50px;
+    line-height: 36px;
+    font-family: Noto Sans, sans-serif;
+}
+#main-header{
+    font-size: 36px;
+    background-color: #0D7273;
+    color: floralwhite;
+    font-family: 'Bungee Shade', cursive;
+}
+
+#navbar{
+    background-color: #0D7273;
+    color: #fff;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.service-p{
+    color: black;
+    font-family: Noto Sans, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: Noto Sans, sans-serif;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    bottom:0px;
+    position: relative;
+    height: 50px;
+    margin-top: 200px;
+    padding: 20px;
+    width: 100%;  
+    
+}
+
+.block{
+    height: auto;
+    float: left;
+    width: 30%;
+    border: 3px solid #333;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 40px;
+    display:block;
+}
+
+.block h3{
+    font-family: Noto Sans, sans-serif;
+    font-size: 32px;
+}
+
+.section-button{
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    background-color: transparent;
+}
+
+.section-button:hover{
+    opacity: unset;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+.button{
+    background-color: #0D7273; /* Green */
+    border: none;
+    color: white;
+    padding: 1em 4%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover{
+    background: aqua;
+}
+
+.container{
+    margin: 10px;
+}
+
+.box-1{
+    border: 3px dotted #0D7273;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+    font-size: 24px;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline; /* makes the navbar side by side */
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+h1{
+    font-size: 32px;
+    color: floralwhite;
+    font-family: 'Bungee Shade', cursive;
+}
+
+#showcase{
+    margin: auto;
+    padding: 30px;
+    background-image: url(images/backgroundPic.jpeg);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 700px;
+}
+
+.card { /* shadow box */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+  
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+a, a:visited{
+    color: inherit;
+    text-decoration: none;
+}
